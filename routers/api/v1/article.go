@@ -8,13 +8,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
 
-	"github.com/EDDYCJY/go-gin-example/pkg/app"
-	"github.com/EDDYCJY/go-gin-example/pkg/e"
-	"github.com/EDDYCJY/go-gin-example/pkg/qrcode"
-	"github.com/EDDYCJY/go-gin-example/pkg/setting"
-	"github.com/EDDYCJY/go-gin-example/pkg/util"
-	"github.com/EDDYCJY/go-gin-example/service/article_service"
-	"github.com/EDDYCJY/go-gin-example/service/tag_service"
+	"github.com/ghjan/go-gin-example/pkg/app"
+	"github.com/ghjan/go-gin-example/pkg/e"
+	"github.com/ghjan/go-gin-example/pkg/qrcode"
+	"github.com/ghjan/go-gin-example/pkg/setting"
+	"github.com/ghjan/go-gin-example/pkg/util"
+	"github.com/ghjan/go-gin-example/service/article_service"
+	"github.com/ghjan/go-gin-example/service/tag_service"
 )
 
 // @Summary Get a single article
