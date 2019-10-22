@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"github.com/ghjan/go-gin-example/pkg/file"
+	"go-gin-example/pkg/file"
 	"log"
 	"os"
 	"path/filepath"

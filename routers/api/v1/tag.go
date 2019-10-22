@@ -7,13 +7,13 @@ import (
 	"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
 
-	"github.com/ghjan/go-gin-example/pkg/app"
-	"github.com/ghjan/go-gin-example/pkg/e"
-	"github.com/ghjan/go-gin-example/pkg/export"
-	"github.com/ghjan/go-gin-example/pkg/logging"
-	"github.com/ghjan/go-gin-example/pkg/setting"
-	"github.com/ghjan/go-gin-example/pkg/util"
-	"github.com/ghjan/go-gin-example/service/tag_service"
+	"go-gin-example/pkg/app"
+	"go-gin-example/pkg/e"
+	"go-gin-example/pkg/export"
+	"go-gin-example/pkg/logging"
+	"go-gin-example/pkg/setting"
+	"go-gin-example/pkg/util"
+	"go-gin-example/service/tag_service"
 )
 
 // @Summary Get multiple article tags
@@ -115,7 +115,7 @@ type EditTagForm struct {
 // @Summary Update article tag
 // @Produce  json
 // @Param id path int true "ID"
-// @Param name body string true "ID"
+// @Param name body string true "Name"
 // @Param state body int false "State"
 // @Param modified_by body string true "ModifiedBy"
 // @Success 200 {object} app.Response

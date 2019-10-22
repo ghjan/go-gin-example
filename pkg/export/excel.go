@@ -1,6 +1,6 @@
 package export
 
-import "github.com/ghjan/go-gin-example/pkg/setting"
+import "go-gin-example/pkg/setting"
 
 const EXT = ".xlsx"
 

@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ghjan/go-gin-example/pkg/e"
-	"github.com/ghjan/go-gin-example/pkg/util"
+	"go-gin-example/pkg/e"
+	"go-gin-example/pkg/util"
 )
 
 // JWT is jwt middleware

@@ -7,12 +7,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/ghjan/go-gin-example/models"
-	"github.com/ghjan/go-gin-example/pkg/gredis"
-	"github.com/ghjan/go-gin-example/pkg/logging"
-	"github.com/ghjan/go-gin-example/pkg/setting"
-	"github.com/ghjan/go-gin-example/routers"
-	"github.com/ghjan/go-gin-example/pkg/util"
+	"go-gin-example/models"
+	"go-gin-example/pkg/gredis"
+	"go-gin-example/pkg/logging"
+	"go-gin-example/pkg/setting"
+	"go-gin-example/routers"
+	"go-gin-example/pkg/util"
 )
 
 func init() {
@@ -26,9 +26,9 @@ func init() {
 // @title Golang Gin API
 // @version 1.0
 // @description An example of gin
-// @termsOfService https://github.com/EDDYCJY/go-gin-example
+// @termsOfService https://go-gin-example
 // @license.name MIT
-// @license.url https://github.com/ghjan/go-gin-example/blob/master/LICENSE
+// @license.url https://go-gin-example/blob/master/LICENSE
 func main() {
 	gin.SetMode(setting.ServerSetting.RunMode)
 

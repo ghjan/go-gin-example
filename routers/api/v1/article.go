@@ -3,18 +3,22 @@ package v1
 import (
 	"net/http"
 
+<<<<<<< HEAD
+=======
+	"github.com/unknwon/com"
+>>>>>>> upstream/master
 	"github.com/astaxie/beego/validation"
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
 
-	"github.com/ghjan/go-gin-example/pkg/app"
-	"github.com/ghjan/go-gin-example/pkg/e"
-	"github.com/ghjan/go-gin-example/pkg/qrcode"
-	"github.com/ghjan/go-gin-example/pkg/setting"
-	"github.com/ghjan/go-gin-example/pkg/util"
-	"github.com/ghjan/go-gin-example/service/article_service"
-	"github.com/ghjan/go-gin-example/service/tag_service"
+	"go-gin-example/pkg/app"
+	"go-gin-example/pkg/e"
+	"go-gin-example/pkg/qrcode"
+	"go-gin-example/pkg/setting"
+	"go-gin-example/pkg/util"
+	"go-gin-example/service/article_service"
+	"go-gin-example/service/tag_service"
 )
 
 // @Summary Get a single article
