@@ -3,15 +3,10 @@ package v1
 import (
 	"net/http"
 
-<<<<<<< HEAD
-=======
-	"github.com/unknwon/com"
->>>>>>> upstream/master
 	"github.com/astaxie/beego/validation"
 	"github.com/boombuler/barcode/qr"
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
-
 	"go-gin-example/pkg/app"
 	"go-gin-example/pkg/e"
 	"go-gin-example/pkg/qrcode"
