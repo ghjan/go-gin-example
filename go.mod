@@ -16,21 +16,28 @@ require (
 	github.com/go-sql-driver/mysql v1.4.1-0.20190510102335-877a9775f068 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/gomodule/redigo v2.0.1-0.20180401191855-9352ab68be13+incompatible
+	github.com/hashicorp/go-immutable-radix v1.2.0 // indirect
+	github.com/hashicorp/go-multierror v1.1.0 // indirect
+	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/jinzhu/gorm v0.0.0-20180213101209-6e1387b44c64
 	github.com/jinzhu/inflection v0.0.0-20170102125226-1c35d901db3d // indirect
 	github.com/jinzhu/now v1.0.1 // indirect
-	github.com/json-iterator/go v1.1.7 // indirect
+	github.com/json-iterator/go v1.1.9 // indirect
+	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/lib/pq v1.2.0 // indirect
 	github.com/mattn/go-sqlite3 v1.11.0 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
+	github.com/sirupsen/logrus v1.5.0 // indirect
 	github.com/smartystreets/goconvey v0.0.0-20190731233626-505e41936337 // indirect
+	github.com/storyicon/grbac v0.0.0-20200224041032-a0461737df7e // indirect
 	github.com/swaggo/gin-swagger v1.0.1-0.20190110070702-0c6fcfd3c7f3
 	github.com/swaggo/swag v1.4.0
 	github.com/tealeg/xlsx v1.0.4-0.20180419195153-f36fa3be8893
 	github.com/unknwon/com v1.0.1
 	golang.org/x/image v0.0.0-20180628062038-cc896f830ced // indirect
-	golang.org/x/sys v0.0.0-20190921204832-2dccfee4fd3e // indirect
+	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4 // indirect
 	google.golang.org/appengine v1.6.3 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/ini.v1 v1.47.0 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
